@@ -1,0 +1,61 @@
+*{
+    border: 1px solid red;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 80vw;
+    margin: auto;
+    padding: 1em;
+    height: 70vh;
+    position:relative;
+}
+
+header{
+    width: 100vw;
+    background-color: darkorchid;
+    padding: 2em;
+}
+
+nav{
+    font-size: small;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+#toppbilde-container{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+#om-filmen{
+    background-color: aquamarine;
+}
+
+#skuespillere{
+    background-color:cornsilk
+}
+
+#anmeldelser{
+    background-color: thistle;
+}
